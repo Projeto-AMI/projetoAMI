@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Cadastro Cliente
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page7">
+  <form id="cadastroCliente-form3">
+    <ion-list id="cadastroCliente-list4">
+      <ion-item id="cadastroCliente-input9">
+        <ion-label>
+          Nome Completo
+        </ion-label>
+        <ion-input type="text" placeholder="" name="nomeCuidador"></ion-input>
+      </ion-item>
+      <ion-item id="cadastroCliente-input10">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input type="email" placeholder="" name="email"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-item id="cadastroCliente-input11">
+      <ion-label stacked>
+        Data de nascimento
+      </ion-label>
+      <ion-input type="date" placeholder="" name="dtNascimento"></ion-input>
+    </ion-item>
+    <ion-item id="cadastroCliente-input12">
+      <ion-label>
+        Telefone
+      </ion-label>
+      <ion-input type="tel" placeholder="" name="telefone"></ion-input>
+    </ion-item>
+    <ion-item id="cadastroCliente-input13">
+      <ion-label>
+        Senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="senha"></ion-input>
+    </ion-item>
+    <ion-item id="cadastroCliente-input14">
+      <ion-label>
+        Confirmar senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="confirmarSenha"></ion-input>
+    </ion-item>
+    <button id="cadastroCliente-button7" ion-button color="balanced" block on-click="goToHome()">
+      Cadastrar
+    </button>
+  </form>
+</ion-content>

@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>
+      Editar perfil
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page5">
+  <form id="editarPerfil-form2">
+    <ion-list id="editarPerfil-list3">
+      <ion-item id="editarPerfil-input3">
+        <ion-label>
+          Nome Completo
+        </ion-label>
+        <ion-input type="text" placeholder="" name="nomeCuidador"></ion-input>
+      </ion-item>
+      <ion-item id="editarPerfil-input4">
+        <ion-label>
+          Email
+        </ion-label>
+        <ion-input type="email" placeholder="" name="email"></ion-input>
+      </ion-item>
+    </ion-list>
+    <ion-item id="editarPerfil-input5">
+      <ion-label stacked>
+        Data de nascimento
+      </ion-label>
+      <ion-input type="date" placeholder="" name="dtNascimento"></ion-input>
+    </ion-item>
+    <ion-item id="editarPerfil-input6">
+      <ion-label>
+        Telefone
+      </ion-label>
+      <ion-input type="tel" placeholder="" name="telefone"></ion-input>
+    </ion-item>
+    <ion-item id="editarPerfil-input7">
+      <ion-label>
+        Senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="senha"></ion-input>
+    </ion-item>
+    <ion-item id="editarPerfil-input8">
+      <ion-label>
+        Confirmar senha
+      </ion-label>
+      <ion-input type="password" placeholder="" name="confirmarSenha"></ion-input>
+    </ion-item>
+    <button id="editarPerfil-button3" ion-button color="balanced" block on-click="goToHome()">
+      Editar
+    </button>
+  </form>
+</ion-content>
